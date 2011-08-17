@@ -1,8 +1,0 @@
--include $(SRCROOT)/auto.conf
-
-ifneq ($(ARCH),)
-include ${SRCROOT}/arch/${ARCH}/Make.rules
-#print transformed OBJECTS
-#$(warning ARCH=${ARCH} OBJ: ${ACTUAL_OBJECTS})
-#$(warning ARCH=${ARCH} OBJ: ${MODULE_OBJECTS})
-endif
